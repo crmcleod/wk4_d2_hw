@@ -1,0 +1,4 @@
+<%number=1%>
+<h1><%for film in @film_list %>
+<ul> <a href = "films/<%=number.to_i%>"> <%number +=1%> <%=film.title%> <a></ul>
+<%end%><h1>
